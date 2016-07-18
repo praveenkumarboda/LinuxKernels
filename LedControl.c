@@ -19,6 +19,7 @@ static int __init LedDriver_init(void)
 	gpio_request(gpioLED,"sysfs");
 	gpio_direction_output(gpioLED,ledOn);
 	gpio_export(gpioLED,1);
+	printk(KERN_INFO" Led Driver Created Succesfully");
 
 }
 static void __exit LedDriver_exit(void)
