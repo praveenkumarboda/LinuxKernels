@@ -3,6 +3,5 @@ void main()
 {
 
 	printf("hello");
-	printf("World");
 
 }
